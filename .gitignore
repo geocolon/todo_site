@@ -1,0 +1,60 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.mo
+*.swp
+db.sqlite3
+db.sqlite3-journal
+media
+
+# If you are using MySQL, PostgreSQL, or another DB, exclude their database files
+*.db
+
+# Django migrations
+*/migrations/*
+
+# Static and media directories (Optional)
+static/
+media/
+
+# Environments
+*.env
+.env
+
+# VS Code project settings (if using VS Code)
+.vscode/
+
+# MacOS-specific files
+.DS_Store
+
+# JetBrains IDEs (PyCharm, WebStorm, etc.)
+.idea/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
