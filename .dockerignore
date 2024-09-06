@@ -1,0 +1,15 @@
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environments
+env/
+venv/
+
+# Ignore any database files
+*.sqlite3
+
+# Ignore logs and media files
+*.log
+media/
+staticfiles/
